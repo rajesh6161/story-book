@@ -14,7 +14,8 @@ npm install
 
 # Run in development
 npm run dev
-
+"dev": "cross-env NODE_ENV=development nodemon app"
+"start": "cross-env NODE_ENV=production node app",
 # Run in production
 npm start
 ```
